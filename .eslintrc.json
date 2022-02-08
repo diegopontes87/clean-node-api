@@ -1,0 +1,6 @@
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json" //Dizer para o eslint que vai ser usado as configs do Typescript
+  }
+}

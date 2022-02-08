@@ -1,0 +1,9 @@
+{
+  "compileOptions": {
+    "outDir": "./dist", //Local onde será gerado o código javascript que será publicado no servidor
+    "module": "commonjs", //Forçar a geração dos arquivos Js como commonjs para que os browsers entendam.
+    "target": "es2019", //Ao gerar o código Js, será usado o padrão es2019.
+    "esModuleInterop": true, //Fazer conversão dos modules com relação ao import e export no JS.
+    "allowJs": true //Adicionar arquivos de config em JS no dist do projeto ao subir o projeto.
+  }
+}
